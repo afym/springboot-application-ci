@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymleaf.org">
+<head>
+    <title th:text="${pageTitle}">Application Index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="container">
+    <h2>Arithmetic Operations entry points</h2>
+    <ul>
+        <li>GET <strong>/v1/maths/add/{value1}/{value2}</strong> <a href="/v1/maths/add/1/2">sample</a></li>
+        <li>GET <strong>/v1/maths/mul/{value1}/{value2}</strong> <a href="/v1/maths/mul/1/2">sample</a></li>
+        <li>GET <strong>/v1/maths/sub/{value1}/{value2}</strong> <a href="/v1/maths/sub/1/2">sample</a></li>
+        <li>GET <strong>/v1/maths/div/{value1}/{value2}</strong> <a href="/v1/maths/div/1/2">sample</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
