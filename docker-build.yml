@@ -6,4 +6,4 @@ services:
     working_dir: /application
     volumes:
       - ./application:/application
-    command: sh -c "mvn clean package"
+    command: sh -c "mvn -B -DskipTests clean package"
